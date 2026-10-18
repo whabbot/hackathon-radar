@@ -1,0 +1,132 @@
+:root {
+  color: #1c1915;
+  background: #f4f1ea;
+  font-family: system-ui, sans-serif;
+  line-height: 1.45;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 650;
+  margin: 0 0 0.25rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+p {
+  margin: 0.35rem 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.muted {
+  color: #5e584f;
+}
+
+form,
+.event,
+.question,
+.card {
+  display: grid;
+  gap: 0.75rem;
+}
+
+label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.92rem;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #c9c1b4;
+  background: #fff;
+  padding: 0.55rem 0.7rem;
+}
+
+button {
+  border: 1px solid #2c2824;
+  background: #2c2824;
+  color: #f7f4ee;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: transparent;
+  color: #2c2824;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.queue {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+button.card {
+  text-align: left;
+  width: 100%;
+  background: #fff;
+  color: #1c1915;
+  border: 1px solid #ddd6ca;
+  padding: 0.9rem 1rem;
+}
+
+.question {
+  border-top: 1px solid #ddd6ca;
+  padding-top: 1rem;
+}
+
+.draft {
+  margin: 0;
+  white-space: pre-wrap;
+  background: #ebe4d8;
+  border-left: 3px solid #8a8175;
+  padding: 0.75rem 0.9rem;
+  color: #3a342c;
+}
+
+textarea {
+  min-height: 6.5rem;
+  background: #fff;
+}
+
+.error {
+  color: #8c2f2f;
+  margin: 0;
+}
